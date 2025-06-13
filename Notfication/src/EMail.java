@@ -17,9 +17,9 @@ public class EMail implements Observer{
     private final ServiceMananger serviceMananger;
 
     private static final String expéditeur = "dolooumar60@gmail.com";
-    private static final String motDePasse = "ggdb nuwc zxli hyhv"; // Remplacez par votre mot de passe
-    private static final String hoteSMTP = "smtp.example.com"; // Remplacez par votre serveur SMTP
-    private static final int portSMTP = 587; // Ou 465, selon votre serveur
+    private static final String motDePasse = "ggdb nuwc zxli hyhv"; 
+    private static final String hoteSMTP = "smtp.example.com"; 
+    private static final int portSMTP = 587; // 
 
     public EMail(subscriptionManager subscriptionManagers, UserManager userManager, ServiceMananger serviceMananger ) {
         this.subscriptionManagers = subscriptionManagers;
